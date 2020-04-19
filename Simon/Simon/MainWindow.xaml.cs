@@ -17,12 +17,52 @@ namespace Simon
 {
     public partial class MainWindow : Window
     {
+        List<int> userPattern = new List<int>();
+
+        Random random = new Random();
+        int score = 0;
+
         public MainWindow()
         {
             InitializeComponent();
         }
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void Game()
+        {
+            List<int> randomPattern = new List<int>();
+            randomPattern.Add(random.Next(4));
+            randomPattern.Add(random.Next(4));
+
+            foreach(int i in randomPattern)
+            {
+            }
+
+
+
+        }
+
+
+        private void RedButton_Click(object sender, RoutedEventArgs e)
+        {
+                   
+        }
+
+        private void GreenButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void YellowButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BlueButton_Click(object sender, RoutedEventArgs e)
         {
 
         }

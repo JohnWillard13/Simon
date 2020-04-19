@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#212121">
-        <Button x:Name="RedButton" Background="Red" HorizontalAlignment="Left" Margin="553,67,0,0" VerticalAlignment="Top" Height="150" Width="150"/>
-        <Button x:Name="GreenButton" Background="Green" HorizontalAlignment="Left" Margin="403,67,0,0" VerticalAlignment="Top" Height="150" Width="150"/>
-        <Button x:Name="YellowButton" Background="Yellow" HorizontalAlignment="Left" Margin="403,217,0,0" VerticalAlignment="Top" Height="150" Width="150"/>
-        <Button x:Name="BlueButton" Background="Blue" HorizontalAlignment="Left" Margin="553,217,0,0" VerticalAlignment="Top" Height="150" Width="150"/>
+        <Button x:Name="RedButton" Background="Red" HorizontalAlignment="Left" Margin="553,67,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="RedButton_Click"/>
+        <Button x:Name="GreenButton" Background="Green" HorizontalAlignment="Left" Margin="403,67,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="GreenButton_Click"/>
+        <Button x:Name="YellowButton" Background="Yellow" HorizontalAlignment="Left" Margin="403,217,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="YellowButton_Click"/>
+        <Button x:Name="BlueButton" Background="Blue" HorizontalAlignment="Left" Margin="553,217,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="BlueButton_Click"/>
         <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="94,249,0,0" VerticalAlignment="Top" Height="32" Width="110" Click="StartButton_Click"/>
+        <TextBlock x:Name="ScoreBox" Foreground="white" FontFamily="Arial" FontSize="20" HorizontalAlignment="Left" Margin="60,304,0,0" Text="Score: 0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="213"/>
     </Grid>
 </Window>
