@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Forms;
+
 
 namespace Simon
 {
@@ -27,9 +29,12 @@ namespace Simon
             InitializeComponent();
         }
 
-        private void StartButton_Click(object sender, RoutedEventArgs e)
+        //Use TextBlock clearing to say "Watch the pattern", "Your Turn" and then an empty box between games
+        async void StartButton_Click(object sender, RoutedEventArgs e)
         {
-
+            RedButton.Background = Brushes.White;
+            await Task.Delay(TimeSpan.FromSeconds(0.75));
+            RedButton.Background = Brushes.Red;
         }
 
         public void Game()
@@ -38,9 +43,9 @@ namespace Simon
             randomPattern.Add(random.Next(4));
             randomPattern.Add(random.Next(4));
 
-            foreach(int i in randomPattern)
-            {
-            }
+            //foreach(int i in randomPattern)
+            //{
+            //}
 
 
 
