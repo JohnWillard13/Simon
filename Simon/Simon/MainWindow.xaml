@@ -13,5 +13,7 @@
         <Button x:Name="BlueButton" Background="Blue" HorizontalAlignment="Left" Margin="553,217,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="BlueButton_Click"/>
         <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="94,249,0,0" VerticalAlignment="Top" Height="32" Width="110" Click="StartButton_Click"/>
         <TextBlock x:Name="ScoreBox" Foreground="white" FontFamily="Arial" FontSize="20" HorizontalAlignment="Left" Margin="60,304,0,0" Text="Score: 0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="213"/>
+        <TextBlock x:Name="StatusBox" Foreground="white" FontFamily="Arial" FontSize="20" HorizontalAlignment="Left" Margin="60,379,0,0" Text="Click Start to start the game." TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="293"/>
+        <TextBlock x:Name="HiScore" Foreground="white" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="60,337,0,0" Text="Top Score: 0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="165"/>
     </Grid>
 </Window>
