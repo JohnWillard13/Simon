@@ -26,6 +26,7 @@ namespace Simon
         List<int> randomPattern = new List<int> {};
         int counter = 0;
         int bestScore = 0;
+        bool _IsError;
 
         public MainWindow()
         {
@@ -39,6 +40,9 @@ namespace Simon
         //Use TextBlock clearing to say "Watch the pattern", "Your Turn" and then an empty box between games
         private void StartButton_Click(object sender, RoutedEventArgs e)
         {
+
+            _IsError = false;
+
             RedButton.IsEnabled = true;
             BlueButton.IsEnabled = true;
             GreenButton.IsEnabled = true;
@@ -101,13 +105,12 @@ namespace Simon
                     }
                 }
 
-                StatusBox.Text = "Your turn.";
-                return;
             }
 
             catch(Exception e) {
                 userPattern.Clear();
                 randomPattern.Clear();
+                _IsError = true;
                 score = 0;
                 counter = 0;
                 RedButton.IsEnabled = false;
@@ -117,6 +120,12 @@ namespace Simon
                 StatusBox.Text = "Wait until the pattern is done being shown.";
                 StartButton.IsEnabled = true;
                 ScoreBox.Text = "Score: " + 0;
+                return;
+            }
+
+            if (_IsError == false)
+            {
+                StatusBox.Text = "Your turn.";
                 return;
             }
         }

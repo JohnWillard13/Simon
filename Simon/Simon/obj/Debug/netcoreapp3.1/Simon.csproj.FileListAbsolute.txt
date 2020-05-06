@@ -4,7 +4,6 @@ C:\Users\judgi\Desktop\School\C#_NET\Simon\Simon\Simon\bin\Debug\netcoreapp3.1\S
 C:\Users\judgi\Desktop\School\C#_NET\Simon\Simon\Simon\bin\Debug\netcoreapp3.1\Simon.runtimeconfig.dev.json
 C:\Users\judgi\Desktop\School\C#_NET\Simon\Simon\Simon\bin\Debug\netcoreapp3.1\Simon.dll
 C:\Users\judgi\Desktop\School\C#_NET\Simon\Simon\Simon\bin\Debug\netcoreapp3.1\Simon.pdb
-C:\Users\judgi\Desktop\School\C#_NET\Simon\Simon\Simon\obj\Debug\netcoreapp3.1\Simon.csprojAssemblyReference.cache
 C:\Users\judgi\Desktop\School\C#_NET\Simon\Simon\Simon\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\judgi\Desktop\School\C#_NET\Simon\Simon\Simon\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\judgi\Desktop\School\C#_NET\Simon\Simon\Simon\obj\Debug\netcoreapp3.1\Simon_MarkupCompile.cache

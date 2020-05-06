@@ -12,9 +12,10 @@
         <Button x:Name="GreenButton" Background="Green" HorizontalAlignment="Left" Margin="403,67,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="GreenButton_Click"/>
         <Button x:Name="YellowButton" Background="Yellow" HorizontalAlignment="Left" Margin="403,217,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="YellowButton_Click"/>
         <Button x:Name="BlueButton" Background="Blue" HorizontalAlignment="Left" Margin="553,217,0,0" VerticalAlignment="Top" Height="150" Width="150" Click="BlueButton_Click"/>
-        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="94,249,0,0" VerticalAlignment="Top" Height="32" Width="110" Click="StartButton_Click"/>
-        <TextBlock x:Name="ScoreBox" Foreground="white" FontFamily="Arial" FontSize="20" HorizontalAlignment="Left" Margin="60,304,0,0" Text="Score: 0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="213"/>
-        <TextBlock x:Name="StatusBox" Foreground="white" FontFamily="Arial" FontSize="20" HorizontalAlignment="Left" Margin="60,379,0,0" Text="Click Start to start the game." TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="293"/>
-        <TextBlock x:Name="HiScore" Foreground="white" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="60,337,0,0" Text="Top Score: 0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="165"/>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Left" Margin="96,217,0,0" VerticalAlignment="Top" Height="32" Width="110" Click="StartButton_Click"/>
+        <TextBlock x:Name="ScoreBox" Foreground="white" FontFamily="Arial" FontSize="20" HorizontalAlignment="Left" Margin="60,278,0,0" Text="Score: 0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="213"/>
+        <TextBlock x:Name="StatusBox" Foreground="white" FontFamily="Arial" FontSize="20" HorizontalAlignment="Left" Margin="60,341,0,0" Text="Click Start to start the game." TextWrapping="Wrap" VerticalAlignment="Top" Height="72" Width="293"/>
+        <TextBlock x:Name="HiScore" Foreground="white" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="60,306,0,0" Text="Top Score: 0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="165"/>
+        <TextBlock x:Name="GameDesc" Foreground="white" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="12,34,0,0" Text="Welcome to Simon. To play, press the Start button. Let the game generate a random sequence of colors on the four buttons to the right. Memorize the sequence. After the sequence is over, repeat the same sequence to win." TextWrapping="Wrap" VerticalAlignment="Top" Height="145" Width="341"/>
     </Grid>
 </Window>
