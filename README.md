@@ -1,7 +1,7 @@
 # Simon Game
 ___
 
-# Instructions to Install:
+## Instructions to Install:
 ___
 
 * Step 1: Download .NET for your device [here](https://dotnet.microsoft.com/download/dotnet-core/3.1) and follow the required steps.
@@ -13,7 +13,7 @@ ___
 
 ___
 
-# How to Play
+## How to Play
 ___
 
 
