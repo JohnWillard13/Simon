@@ -1,4 +1,5 @@
 # Simon Game
+![GameImage](https://github.com/RyanberryPi/Simon/blob/master/game.PNG "GameImage")
 ___
 
 ## Instructions to Install:
