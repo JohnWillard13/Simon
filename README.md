@@ -1,7 +1,8 @@
 # Simon Game
 ___
 
-Instructions to Install:
+# Instructions to Install:
+___
 
 * Step 1: Download .NET for your device [here](https://dotnet.microsoft.com/download/dotnet-core/3.1) and follow the required steps.
 
@@ -9,6 +10,11 @@ Instructions to Install:
 * Step 3: Click the ![download button](https://github.com/RyanberryPi/Simon/blob/master/githubDown.jpg "download button") to download the setup file.
 
 * Step 4: Once downloaded, open the downloaded file. **You may receive a Windows Defender warning that blocks the install. If this happens, choose More Info on the window and then click Run Anyway.**
+
+___
+
+# How to Play
+___
 
 
 ### In the game of Simon, you will click the Start button to play. Watch the colors on the right as they are displayed in a random pattern. Once the pattern is done and the games says "Your Turn", click the colors to repeat the pattern. If you get it right, you will move on to the next round and it will display the same pattern plus a new color.
